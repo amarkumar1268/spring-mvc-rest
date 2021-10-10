@@ -1,9 +1,9 @@
 package com.example.controller;
 
-import com.example.config.JwtUtil;
 import com.example.model.AuthenticationRequest;
 import com.example.model.AutheticationResponse;
 import com.example.service.impl.MyUserDetailsService;
+import com.example.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
